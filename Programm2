@@ -1,0 +1,4 @@
+##Basic input print code
+print("My Demo Project")
+a=input("Enter Your Name")
+print("Hi "+a)
