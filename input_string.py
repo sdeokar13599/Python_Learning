@@ -1,3 +1,4 @@
+import os
 # name=input("Enter you name")
 # print("Hello",name)
 
@@ -107,27 +108,27 @@
 # print(v_count)        
 
 
-#Write prgramm to find out count of vowles each  in the string
+# #Write prgramm to find out count of vowles each  in the string
 
-vowles=['a','e','i','o','u']
-v_count={}
+# vowles=['a','e','i','o','u']
+# v_count={}
 
-Demo="Sahebihoau"
+# Demo="Sahebihoau"
 
-for i in Demo:
-    if (i in vowles and i in v_count):
-        v_count[i]+=1
-    elif(i in vowles):
-     v_count[i]=1
+# for i in Demo:
+#     if (i in vowles and i in v_count):
+#         v_count[i]+=1
+#     elif(i in vowles):
+#      v_count[i]=1
 
 
-for key,values in v_count.items():
-   print(key,values)
+# for key,values in v_count.items():
+#    print(key,values)
 
 
         
         
-
+print(os.environ['OPENAI_API_KEY'])
 
 
 
