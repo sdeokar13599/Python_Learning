@@ -128,9 +128,41 @@ import os
 
         
         
-print(os.environ['OPENAI_API_KEY'])
+##Write a Programm to reverse a sring 
+
+# demo="Shubham"
+# print(demo[::-1])
+
+#String Slicing--->
+# demo="Shubham"
+# print(demo[0:4])  # 0 is exclusive and  4 is inclusive
+
+##anagram means sorted comparison and reverse means reverse comparision
+# str1 = "listen"
+# str2 = "silent"
+
+# if(sorted(str1)==sorted(str1)):
+#     print("Anagrm")
+# else:
+#     print("It is not an anagram")    
+
+#above string is anagram 
+
+###Palindrome code
+
+# Demo="madam"
+
+# if(Demo==Demo[::-1]):
+#     print("Palindrome")
+# else:
+#     print("Not a Palindrome")    
 
 
+# ##Capitalize the first letter of the string 
+
+# Demo="hello my name is shubham deokar"
+
+# print(Demo.title())
 
 
 

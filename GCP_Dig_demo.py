@@ -1,8 +1,10 @@
 from diagrams import Diagram
 from diagrams.gcp.storage import Storage
-from diagrams.gcp.analytics import Bigquery
+from diagrams.gcp.analytics import Bigquery, Composer
 
-with Diagram("GCP Architecture", show=True):
-    gcs = Storage("GCS",fontsize="16")
-    bq = Bigquery("BigQuery",fontsize="16")
-    gcs >> bq       # This should always draw a line!
+with Diagram("GCP Data Pipeline", show=True):
+    gcs = Storage("GCS")
+    bq = Bigquery("BigQuery")
+    airflow = Composer("Airflow")
+    gcs >> bq
+    airflow >> bq
