@@ -166,12 +166,26 @@ import os
 
 
 
+## Wirte a code to remove the duplicates from string 
+
+# Demo="aabbccdd"
+# demo2=""
+
+# for char in Demo:
+#     if char not in demo2:
+#         demo2+=char
+
+# print(demo2)
 
 
+#Replace all spaces in a string with a given character (e.g., “%20”).
+
+# Name="My Name is Shubham "
+# repl=Name.replace(" ","%2D")
+# print(repl)
 
 
-
-
+## complete the string once then start on other conepts once this is done.
 
         
 
