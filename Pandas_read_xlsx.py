@@ -1,5 +1,6 @@
 import pandas as pd
 df=pd.read_excel("demo.xlsx",sheet_name="Sheet1",usecols=['Name'],nrows=2)
+print(df)
 
 
 # read_excel -->used for excel
