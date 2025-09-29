@@ -112,8 +112,13 @@
 # list_a=[1,2,3,4,5,6,7,8,9,10]
 # print(list_a[-2])
 
-#falttern the list
+# #falttern the list
 
-list_a=[[1,2],[3,4],[5,6]]
-list_flat=[x for sub in list_a for x in sub]
-print(list_flat)
+# list_a=[[1,2],[3,4],[5,6]]
+# list_flat=[x for sub in list_a for x in sub]
+# print(list_flat)
+
+# #Extract numbers from a string into a list
+# text = "Customer123 has 4 orders and 56 items"
+# nums=[x for x in text if x.isdigit()]
+# print(nums)
